@@ -6,6 +6,8 @@ import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
 const config = {
+  output: "export",
+  distDir: "dist",
   eslint: {
     ignoreDuringBuilds: true,
   },
